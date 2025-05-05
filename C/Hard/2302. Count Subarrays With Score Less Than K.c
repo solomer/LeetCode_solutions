@@ -3,8 +3,6 @@
 //Link : https://leetcode.com/problems/count-subarrays-with-score-less-than-k/description/?envType=daily-question&envId=2025-04-28
 //Author: solomer
 
-// Note: int this problem, I had to learn how to do window sliding because my early brute force method didnt work.
-
 long long countSubarrays(int* nums, int numsSize, long long k) {
   int right = 0,left=0;
   long long sum = 0;

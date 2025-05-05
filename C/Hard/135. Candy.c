@@ -3,7 +3,6 @@
 //Link : https://leetcode.com/problems/candy/description/
 //Author: solomer
 
-// Note: int this problem, I had to learn how to do window sliding because my early brute force method didnt work.
 
 int candy(int* ratings, int ratingsSize) {
   int did = 1;
